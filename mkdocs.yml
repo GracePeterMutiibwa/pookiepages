@@ -1,0 +1,58 @@
+site_name: pookiepages
+site_description: A Python web framework built on Flask and PookieDB
+site_author: Grace Peter Mutiibwa
+site_url: https://pookiepages.readthedocs.io
+repo_name: GracePeterMutiibwa/pookiepages
+repo_url: https://github.com/GracePeterMutiibwa/pookiepages
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: deep purple
+    accent: pink
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Getting started:
+    - Installation: getting-started/installation.md
+    - Quick start: getting-started/quickstart.md
+    - Configuration: getting-started/configuration.md
+  - Guides:
+    - Routing: guides/routing.md
+    - Database: guides/database.md
+    - Auth: guides/auth.md
+    - Email: guides/email.md
+    - AI: guides/ai.md
+    - Vector search: guides/vector-search.md
+    - File uploads: guides/file-uploads.md
+    - Admin panel: guides/admin.md
+    - Asset pipeline: guides/assets.md
+  - API reference:
+    - config: api-reference/config.md
+    - request: api-reference/request.md
+    - response: api-reference/response.md
+    - auth: api-reference/auth.md
+    - bridge: api-reference/bridge.md
+    - database: api-reference/database.md
+  - Integrations:
+    - Cloudflare R2: integrations/cloudflare-r2.md
+    - OpenAI: integrations/openai.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - admonition

@@ -1,0 +1,64 @@
+# secrets and keys
+.pookiepages.key
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# progress tracking
+.progress/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+*.py[cod]
+
+# distribution and build
+dist/
+build/
+docs-build/
+*.egg-info/
+*.egg
+MANIFEST
+*.whl
+*.tar.gz
+
+# virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# databases and storage
+vectors/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# test artifacts
+tests/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.lcov
+junit.xml
+test-results/
+
+# docs build output
+site/
+
+# editor and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+Thumbs.db
